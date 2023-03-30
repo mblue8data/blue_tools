@@ -1,4 +1,10 @@
 # blue tools scripts will be here
-- fkdata_generator script builds csv, parquet or json formated data using faker modules for testing
-	- You can read my blog on facker data: [Faker Data] https://bluetifuldata.ghost.io/there-is-a-duck-in-my-db/ 
-        - `python3 fkdata_generator --file mytestdata --records 1000 --format parquet`
+
+### fkdata_generator:
+
+`fkdata_generator` script builds `csv`, `parquet` or `json` formated data using the faker module for testing data systems or playing with data.
+
+You can read my blog on using the faker module: [Sometimes you need a faker in your life](https://bluetifuldata.ghost.io/fake-it-till-you-make-fake-data/) 
+
+Example usage of `fkdata_generator`:
+- `python3 fkdata_generator --file mytestdata --records 1000 --format parquet`
